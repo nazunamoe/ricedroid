@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- RiceDroid additions -->
+  <project path="android" name="RiceDroid/android" remote="rice" />
+
+  <project path="bootable/recovery" name="RiceDroid/android_bootable_recovery" remote="rice" />
+
+  <project path="build/make" name="RiceDroid/android_build" remote="rice" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/soong" name="RiceDroid/android_build_soong" remote="rice" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  
+  <project path="device/lineage/sepolicy" name="RiceDroid/android_device_ricedroid_sepolicy" remote="rice" />
+  
+  <project path="external/jemalloc_new" name="RiceDroid/android_external_jemalloc-new" remote="rice" />
+
+  <project path="frameworks/base" name="RiceDroid/android_frameworks_base" remote="rice" />
+  <project path="frameworks/native" name="RiceDroid/android_frameworks_native" remote="rice" />
+
+  <project path="packages/apps/Backgrounds" name="RiceDroid/android_packages_apps_Backgrounds" remote="rice" />
+  <project path="packages/apps/crDroidSettings" name="RiceDroid/android_packages_apps_RiceDroidSettings" remote="rice" />
+  <project path="packages/apps/DocumentsUI" name="RiceDroid/android_packages_apps_DocumentsUI" remote="rice" />
+  <project path="packages/apps/DeskClock" name="RiceDroid/android_packages_apps_DeskClock" remote="rice" />
+  <project path="packages/apps/Etar" name="RiceDroid/android_packages_apps_Etar" remote="rice" />
+  <project path="packages/modules/Permission" name="RiceDroid/android_packages_modules_Permission" remote="rice" />
+  <project path="packages/apps/Contacts" name="RiceDroid/android_packages_apps_Contacts" remote="rice" />
+  <project path="packages/apps/Dialer" name="RiceDroid/android_packages_apps_Dialer" remote="rice" />
+  <project path="packages/apps/Eleven" name="RiceDroid/android_packages_apps_Music" remote="rice" />
+  <project path="packages/apps/Launcher3" name="RiceDroid/android_packages_apps_Launcher3" remote="rice" />
+  <project path="packages/apps/LineageParts" name="RiceDroid/android_packages_apps_LineageParts" remote="rice" />
+  <project path="packages/apps/Messaging" name="RiceDroid/android_packages_apps_Messaging" remote="rice" />
+  <project path="packages/apps/Settings" name="RiceDroid/android_packages_apps_Settings" remote="rice" />
+  <project path="packages/apps/Updater" name="RiceDroid/android_packages_apps_Updater" remote="rice" />
+
+  <project path="vendor/addons" name="RiceDroid/android_vendor_addons" remote="rice" />
+  <project path="vendor/gms" name="vendor_google_pixel" remote="iu-gitlab" clone-depth="1" />
+  <project path="vendor/lineage" name="RiceDroid/android_vendor_rice" remote="rice" />
+  <project path="vendor/riceDroidOTA" name="RiceDroid/android_vendor_RiceDroidOTA" remote="rice" />
+</manifest>
