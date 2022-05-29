@@ -15,6 +15,7 @@
   <project path="external/giflib" name="crdroidandroid/android_external_giflib" remote="crdroid" />
   <project path="external/harfbuzz_ng" name="crdroidandroid/android_external_harfbuzz_ng" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
+  <project path="external/OpenCSD" name="crdroidandroid/android_external_OpenCSD" remote="crdroid" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/themelib" name="crdroidandroid/android_external_themelib" remote="crdroid" />
