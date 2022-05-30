@@ -81,6 +81,4 @@
   <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" />
   <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" />
 
-  <!-- OctaviOS repositories -->
-  <project path="packages/apps/ExactCalculator" name="Octavi-OS/platform_packages_apps_ExactCalculator" remote="github" revision="12" />
 </manifest>
