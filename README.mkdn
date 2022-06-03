@@ -2,9 +2,24 @@
 <img src="https://github.com/RiceDroid/android/blob/twelve/sushi.png">
 </p>
 
+What is RiceDroid?
+---------------
+Ricedroid is an operating system based on lineage/crdroid, that aims to provide necessary "ricing" for android while being fast and stable.
+
 Terminology
 ---------------
 The rice in the project name can be referred to "rice" (food) itself, but in a sense it is indeed the term "ricing" in linux.
+
+Maintainership
+---------------
+We're not really looking for maintainers but incase we got your curiosity, we only wish for the following requirements:
+
+1. Trees must be properly maintained and not "picked-up" from another dev of his community, patches applied to the tree must be either rom source adaptation/bug fixes/improvements.
+2. Maintains only 1-2 Official ROMS.
+3. Trees must not be private.
+4. Must have no known issues in his/her community.
+ 
+ Maintainership application form: https://docs.google.com/forms/d/e/1FAIpQLSdQjt9NvuzEEqxwvEVtGbCaoxaFFLoz7SRr8J1c_-kcn5EQBQ/viewform
  
 Getting Started
 ---------------
@@ -62,8 +77,11 @@ brunch "device_codename"
 
 Credits
 ---------------
+* [**AOSPA**](https://github.com/AOSPA)
 * [**crDroid**](https://github.com/crdroidandroid)
 * [**DotOS**](https://github.com/DotOS)
+* [**LineageOS**](https://github.com/LineageOS)
 * [**Project Kaleidoscope**](https://github.com/Project-Kaleidoscope)
 * [**Project Radiant**](https://github.com/ProjectRadiant)
+* [**SparkOS**](https://github.com/Spark-Rom)
 
