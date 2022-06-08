@@ -68,7 +68,6 @@
   <project path="vendor/qcom/opensource/healthd-ext" name="crdroidandroid/android_vendor_qcom_opensource_healthd-ext" remote="crdroid" />
     
   <!-- Kscope repositories -->
-  <project path="frameworks/proto_logging" name="Project-Kaleidoscope/android_frameworks_proto_logging" remote="github" revision="sunflowerleaf" />
   <project path="packages/apps/Gallery2" name="Project-Kaleidoscope/android_packages_apps_Gallery2" remote="github" revision="sunflowerleaf" />
  
   <!-- ProtonAOSP repositories -->
