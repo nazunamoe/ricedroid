@@ -66,9 +66,6 @@
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="crdroidandroid/android_vendor_qcom_opensource_system_bt" remote="crdroid" />
   <project path="vendor/qcom/opensource/healthd-ext" name="crdroidandroid/android_vendor_qcom_opensource_healthd-ext" remote="crdroid" />
-    
-  <!-- Kscope repositories -->
-  <project path="packages/apps/Gallery2" name="Project-Kaleidoscope/android_packages_apps_Gallery2" remote="github" revision="sunflowerleaf" />
  
   <!-- ProtonAOSP repositories -->
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" />
