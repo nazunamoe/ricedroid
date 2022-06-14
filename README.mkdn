@@ -78,9 +78,13 @@ brunch "device_codename"
 Credits
 ---------------
 * [**AOSPA**](https://github.com/AOSPA)
+* [**Bootleggers**](https://github.com/BootleggersROM)
 * [**crDroid**](https://github.com/crdroidandroid)
+* [**Corvus-AOSP**](https://github.com/Corvus-R)
+* [**Derpfest**](https://github.com/Derpfest-12)
 * [**DotOS**](https://github.com/DotOS)
 * [**LineageOS**](https://github.com/LineageOS)
+* [**Octavi-OS**](https://github.com/Octavi-OS)
 * [**Project Kaleidoscope**](https://github.com/Project-Kaleidoscope)
 * [**Project Radiant**](https://github.com/ProjectRadiant)
 * [**SparkOS**](https://github.com/Spark-Rom)
