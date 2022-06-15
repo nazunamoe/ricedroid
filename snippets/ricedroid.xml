@@ -25,6 +25,7 @@
   
   <project path="external/jemalloc_new" name="RiceDroid/android_external_jemalloc-new" remote="rice" />
   
+  <project path="frameworks/av" name="RiceDroid/android_frameworks_av" remote="rice" />
   <project path="frameworks/base" name="RiceDroid/android_frameworks_base" remote="rice" />
   <project path="frameworks/native" name="RiceDroid/android_frameworks_native" remote="rice" />
   <project path="frameworks/proto_logging" name="RiceDroid/android_frameworks_proto_logging" remote="rice" />
