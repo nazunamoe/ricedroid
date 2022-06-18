@@ -3,9 +3,6 @@
 
   <!-- crDroid additions -->
 
-  <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
-
-  <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
   
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" remote="crdroid" />

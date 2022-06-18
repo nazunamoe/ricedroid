@@ -2,6 +2,10 @@
 <manifest>
 
   <!-- RiceDroid additions -->
+  <project path="art" name="RiceDroid/android_art" remote="rice" />
+
+  <project path="bionic" name="RiceDroid/android_bionic" remote="rice" />
+  
   <project path="android" name="RiceDroid/android" remote="rice" />
 
   <project path="bootable/recovery" name="RiceDroid/android_bootable_recovery" remote="rice" />
