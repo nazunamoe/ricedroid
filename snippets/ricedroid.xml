@@ -35,6 +35,8 @@
   <project path="frameworks/proto_logging" name="RiceDroid/android_frameworks_proto_logging" remote="rice" />
   <project path="frameworks/libs/systemui" name="RiceDroid/android_frameworks_libs_systemui" remote="rice" />
 
+  <project path="hardware/interfaces" name="RiceDroid/android_hardware_interfaces" remote="rice" />
+  
   <project path="packages/apps/Backgrounds" name="RiceDroid/android_packages_apps_Backgrounds" remote="rice" />
   <project path="packages/apps/crDroidSettings" name="RiceDroid/android_packages_apps_RiceDroidSettings" remote="rice" />
   <project path="packages/apps/DocumentsUI" name="RiceDroid/android_packages_apps_DocumentsUI" remote="rice" />
