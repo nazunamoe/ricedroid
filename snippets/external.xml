@@ -62,5 +62,6 @@
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" />
   <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" />
   <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" />
+  <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" revision="main" />
 
 </manifest>
