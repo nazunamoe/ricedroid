@@ -36,6 +36,8 @@
   <project path="frameworks/libs/systemui" name="RiceDroid/android_frameworks_libs_systemui" remote="rice" />
 
   <project path="hardware/interfaces" name="RiceDroid/android_hardware_interfaces" remote="rice" />
+  <project path="hardware/qcom-caf/wlan" name="RiceDroid/android_hardware_qcom_wlan" remote="rice" />
+
   <project path="libcore" name="RiceDroid/android_libcore" remote="rice" />
   
   <project path="packages/apps/Backgrounds" name="RiceDroid/android_packages_apps_Backgrounds" remote="rice" />
@@ -62,4 +64,5 @@
   <project path="vendor/gms" name="vendor_google_pixel" remote="iu-gitlab" clone-depth="1" />
   <project path="vendor/lineage" name="RiceDroid/android_vendor_rice" remote="rice" />
   <project path="vendor/riceDroidOTA" name="RiceDroid/android_vendor_RiceDroidOTA" remote="rice" />
+  
 </manifest>
