@@ -58,6 +58,7 @@
   <project path="packages/apps/ThemePicker" name="RiceDroid/android_packages_apps_ThemePicker" remote="rice" />
   <project path="packages/apps/Updater" name="RiceDroid/android_packages_apps_Updater" remote="rice" />
 
+  <project path="system/apex" name="RiceDroid/system_apex" remote="rice" />
   <project path="system/core" name="RiceDroid/android_system_core" remote="rice" />
    <remove-project name="platform/system/libartpalette" />
   <project path="system/libartpalette" name="RiceDroid/android_system_libartpalette" remote="rice" />
