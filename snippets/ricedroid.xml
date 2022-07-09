@@ -65,6 +65,7 @@
   <project path="system/libartpalette" name="RiceDroid/android_system_libartpalette" remote="rice" />
   <project path="system/libhwbinder" name="RiceDroid/android_system_libhwbinder" remote="rice" />
   <project path="system/memory/lmkd" name="RiceDroid/android_system_memory_lmkd" remote="rice" />
+  <project path="system/vold" name="RiceDroid/android_system_vold" remote="rice" />
  
   <project path="vendor/addons" name="RiceDroid/android_vendor_addons" remote="rice" />
   <project path="vendor/gms" name="vendor_google_pixel" remote="iu-gitlab" clone-depth="1" />
