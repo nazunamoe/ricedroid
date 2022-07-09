@@ -52,6 +52,7 @@
   <project path="packages/apps/Eleven" name="RiceDroid/android_packages_apps_Music" remote="rice" />
   <project path="packages/apps/Launcher3" name="RiceDroid/android_packages_apps_Launcher3" remote="rice" />
   <project path="packages/apps/LineageParts" name="RiceDroid/android_packages_apps_LineageParts" remote="rice" />
+  <project path="packages/providers/MediaProvider" name="RiceDroid/android_packages_providers_MediaProvider" remote="rice" />
   <project path="packages/apps/Messaging" name="RiceDroid/android_packages_apps_Messaging" remote="rice" />
   <project path="packages/apps/SimIcons" name="RiceDroid/SimIcons" remote="rice" />
   <project path="packages/apps/Settings" name="RiceDroid/android_packages_apps_Settings" remote="rice" />
