@@ -28,6 +28,10 @@
   <project path="device/lineage/sepolicy" name="RiceDroid/android_device_ricedroid_sepolicy" remote="rice" />
   
   <project path="external/jemalloc_new" name="RiceDroid/android_external_jemalloc-new" remote="rice" />
+   <remove-project name="platform/external/lz4" />
+  <project path="external/external_lz4" name="RiceDroid/external_lz4" remote="rice" />
+   <remove-project name="platform/external/libfuse" />
+  <project path="external/external_libfuse" name="RiceDroid/external_libfuse" remote="rice" />
   
   <project path="frameworks/av" name="RiceDroid/android_frameworks_av" remote="rice" />
   <project path="frameworks/base" name="RiceDroid/android_frameworks_base" remote="rice" />
