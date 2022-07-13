@@ -25,8 +25,6 @@
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" revision="12.1-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" revision="12.1-caf-sm8150" />
 
-  <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
-
   <project path="packages/apps/AudioFX" name="crdroidandroid/android_packages_apps_AudioFX" remote="crdroid" />
   <project path="packages/apps/Bluetooth" name="crdroidandroid/android_packages_apps_Bluetooth" remote="crdroid" />
   <project path="packages/apps/FaceUnlockService" name="crdroidandroid/android_packages_apps_FaceUnlockService" remote="crdroid" />
