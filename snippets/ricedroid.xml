@@ -32,6 +32,8 @@
   <project path="external/external_lz4" name="RiceDroid/external_lz4" remote="rice" />
    <remove-project name="platform/external/libfuse" />
   <project path="external/external_libfuse" name="RiceDroid/external_libfuse" remote="rice" />
+   <remove-project name="platform/external/drm_hwcomposer" />
+  <project path="external/drm_hwcomposer" name="RiceDroid/external_drm_hwcomposer" remote="rice" />
   
   <project path="frameworks/av" name="RiceDroid/android_frameworks_av" remote="rice" />
   <project path="frameworks/base" name="RiceDroid/android_frameworks_base" remote="rice" />
