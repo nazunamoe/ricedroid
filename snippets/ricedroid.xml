@@ -65,6 +65,7 @@
   <project path="packages/apps/Settings" name="RiceDroid/android_packages_apps_Settings" remote="rice" />
   <project path="packages/apps/ThemePicker" name="RiceDroid/android_packages_apps_ThemePicker" remote="rice" />
   <project path="packages/apps/Updater" name="RiceDroid/android_packages_apps_Updater" remote="rice" />
+  <project path="packages/services/OmniJaws" name="RiceDroid/packages_services_OmniJaws" remote="rice" />
 
   <project path="system/apex" name="RiceDroid/system_apex" remote="rice" />
   <project path="system/bt" name="RiceDroid/android_system_bt" remote="rice" />
