@@ -55,6 +55,7 @@
   <project path="packages/apps/GameSpace" name="RiceDroid/android_packages_apps_GameSpace" remote="rice" />
   <project path="packages/modules/Permission" name="RiceDroid/android_packages_modules_Permission" remote="rice" />
   <project path="packages/apps/Contacts" name="RiceDroid/android_packages_apps_Contacts" remote="rice" />
+  <project path="packages/apps/CellBroadcastReceiver" name="RiceDroid/android_packages_apps_CellBroadcastReceiver" remote="rice" />
   <project path="packages/apps/Dialer" name="RiceDroid/android_packages_apps_Dialer" remote="rice" />
   <project path="packages/apps/Eleven" name="RiceDroid/android_packages_apps_Music" remote="rice" />
   <project path="packages/apps/Launcher3" name="RiceDroid/android_packages_apps_Launcher3" remote="rice" />
