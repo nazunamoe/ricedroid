@@ -27,6 +27,7 @@
   
   <project path="device/lineage/sepolicy" name="RiceDroid/android_device_ricedroid_sepolicy" remote="rice" />
   
+  <project path="external/arm-optimized-routines" name="RiceDroid/android_external_arm-optimized-routines" remote="rice" />
   <project path="external/jemalloc_new" name="RiceDroid/android_external_jemalloc-new" remote="rice" />
    <remove-project name="platform/external/lz4" />
   <project path="external/external_lz4" name="RiceDroid/external_lz4" remote="rice" />
