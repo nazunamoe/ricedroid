@@ -56,4 +56,6 @@
   <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" />
   <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" revision="main" />
 
+  <!-- Vendor support - Flamingo OS -->
+  <project path="vendor/support" name="Flamingo-OS/vendor_support" remote="github" revision="A12.1" />
 </manifest>
