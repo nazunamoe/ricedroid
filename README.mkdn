@@ -19,7 +19,7 @@ We're not really looking for maintainers but incase we got your curiosity, we on
 3. Trees must not be private.
 4. Must have no known issues in his/her community.
  
- Maintainership application form: https://docs.google.com/forms/d/e/1FAIpQLSdQjt9NvuzEEqxwvEVtGbCaoxaFFLoz7SRr8J1c_-kcn5EQBQ/viewform
+ Maintainership is closed at the moment and will be open until further notice.
  
 Getting Started
 ---------------
@@ -28,10 +28,16 @@ Getting Started
 ```bash
 repo init --depth=1 --no-repo-verify -u https://github.com/RiceDroid/android -b twelve -g default,-mips,-darwin,-notdefault
 ```
+**in case of repo syncing failures try this instead**
+
+```bash
+repo init -u https://github.com/RiceDroid/android -b twelve
+```
 
 **Sync up with this command:**
 ```bash
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
+
 ```
 
 Preparing device for this ROM
@@ -105,9 +111,15 @@ Credits
 * [**Corvus-AOSP**](https://github.com/Corvus-R)
 * [**Derpfest**](https://github.com/Derpfest-12)
 * [**DotOS**](https://github.com/DotOS)
+* [**Evolution-X**](https://github.com/Evolution-X)
+* [**Flamingo-OS**](https://github.com/Flamingo-OS)
 * [**LineageOS**](https://github.com/LineageOS)
 * [**Octavi-OS**](https://github.com/Octavi-OS)
+* [**Omnirom**](https://github.com/omnirom)
+* [**PixelDust**](https://github.com/PixelDust-Twelve)
+* [**Project-Fluid**](https://github.com/Project-Fluid)
 * [**Project Kaleidoscope**](https://github.com/Project-Kaleidoscope)
 * [**Project Radiant**](https://github.com/ProjectRadiant)
 * [**SparkOS**](https://github.com/Spark-Rom)
+* [**Xdroid-OSS**](https://github.com/xdroid-oss)
 
