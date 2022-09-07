@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- Device -->
+  <project path="device/lineage/sepolicy" name="RiceDroid/android_device_lineage_sepolicy" revision="thirteen" />
+  <project path="device/qcom/sepolicy_vndr" name="RiceDroid/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="thirteen" />
+  
+   <!-- Frameworks -->
+  <project path="frameworks/av" name="RiceDroid/android_frameworks_av" groups="pdk" revision="thirteen" />
+  <project path="frameworks/base" name="RiceDroid/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="frameworks/libs/systemui" name="RiceDroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="frameworks/native" name="RiceDroid/android_frameworks_native" groups="pdk" revision="thirteen" />
+
+  <!-- Lineage -->
+  <project path="lineage-sdk" name="RiceDroid/android_lineage-sdk" revision="thirteen" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Backgrounds" name="RiceDroid/android_packages_apps_Backgrounds" revision="twelve" />
+  <project path="packages/apps/Contacts" name="RiceDroid/android_packages_apps_Contacts" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/Dialer" name="RiceDroid/android_packages_apps_Dialer" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/Eleven" name="RiceDroid/android_packages_apps_Music" revision="twelve" />
+  <project path="packages/apps/GameSpace" name="RiceDroid/android_packages_apps_GameSpace" revision="thirteen" />
+  <project path="packages/apps/Launcher3" name="RiceDroid/android_packages_apps_Launcher3" revision="thirteen" />
+  <project path="packages/apps/LineageParts" name="RiceDroid/android_packages_apps_LineageParts" revision="thirteen" />
+  <project path="packages/apps/Messaging" name="RiceDroid/android_packages_apps_Messaging" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/Settings" name="RiceDroid/android_packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/riceDroidSettings" name="RiceDroid/android_packages_apps_RiceDroidSettings" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/ThemePicker" name="RiceDroid/android_packages_apps_ThemePicker" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/modules/Connectivity" name="RiceDroid/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="packages/modules/Permission" name="RiceDroid/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="packages/services/OmniJaws" name="RiceDroid/packages_services_OmniJaws" revision="thirteen" />
+
+  <!-- System -->
+  <project path="system/memory/lmkd" name="RiceDroid/android_system_memory_lmkd" groups="pdk" revision="thirteen" />
+
+  <!-- Vendor -->
+  <project path="vendor/addons" name="RiceDroid/android_vendor_addons" revision="thirteen" />
+  <project path="vendor/lineage" name="RiceDroid/android_vendor_rice" revision="thirteen" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="RiceDroid/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" revision="thirteen" />
+
+  <!-- External  -->
+  <project path="device/qcom/sepolicy" name="crdroidandroid/android_device_qcom_sepolicy" groups="qcom,qssi" revision="13.0" />
+  <project path="packages/modules/Wifi" name="crdroidandroid/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" revision="13.0" />
+  <project path="packages/apps/Nfc" name="crdroidandroid/android_packages_apps_Nfc" revision="13.0" />
+  <project path="system/core" name="crdroidandroid/android_system_core" groups="pdk" revision="13.0" />
+  <project path="system/vold" name="crdroidandroid/android_system_vold" groups="pdk" revision="13.0" />
+
+</manifest>
